@@ -97,4 +97,121 @@ Resources for inspiration:
 
 ### 📚 Table of Contents
 
+To add a table of contents, the following code block can be used:
+
+````
+## Table of Contents
+- [How to Create Your Profile?](#how-to-create-your-profile)
+- [How to Customize Markdown files?](#how-to-customize-markdown-files)
+- [How to Create New Repository?](#how-to-create-new-repository)
+````
+
+
+Note that the links in the table of contents may not work in Preview. You need to Commit changes to check if the links work.
+
+
+To get the correct `(#xx-xx-xx)` for each section:
+
+**Click on the chain logo next to the section title, right-click and open in new tab.**
+<img width="508" alt="Screenshot 2021-09-29 at 6 04 22 PM" src="https://user-images.githubusercontent.com/81607668/135248350-9ba54965-863e-4408-8e02-eb8cd596c2a8.png">
+
+**Then, navigate to the website link, scroll to the end, and copy the highlighted `##xx-xx-xx`.**
+<img width="678" alt="Screenshot 2021-09-29 at 6 04 57 PM" src="https://user-images.githubusercontent.com/81607668/135248359-2ed3ea2e-2a8b-4f07-8f7c-80b053d42497.png">
+
+Ensure that emojis are not included in the title, as they may cause issues with the links in the table of contents.
+
+Note that the links in the table of contents may not work in `Preview`. You need to `Commit changes` to check if the links work.
+
+***
+
+### 🧱 Colour Code the Code Blocks
+
+If you've seen my [8 Week SQL Challenge repo](https://github.com/katiehuangx/8-Week-SQL-Challenge), I use colour codes to highlight my SQL syntax. It's a simple technique, but it can make your code look much more professional.
+
+To use color codes in your code blocks, follow these steps:
+
+````
+```sql -- Add 3 backticks followed by sql
+SELECT *
+FROM student_info
+WHERE student_name = 'Katie';
+``` -- Add 3 backticks
+````
+
+This is how it will turn out:
+```sql
+SELECT *
+FROM student_info
+WHERE student_name = 'Katie';
+```
+
+***
+
+## How to Create New Repository?
+
+Creating a new repo is as easy as creating your profile.
+
+**Step 1: Click on `New Repository` at the top right of the page.**
+
+<kbd><img width="257" alt="image" src="https://user-images.githubusercontent.com/81607668/135068335-12538e85-8090-4f27-8232-47bfcc15b2c2.png"></kbd>
+
+The image below is the default setting. If you forgot to tick `Add a README.md`, you can create the file separately in the repo later.
+
+<kbd><img width="615" alt="Screenshot 2021-09-28 at 9 55 20 PM" src="https://user-images.githubusercontent.com/81607668/135103549-c7d87461-adb5-4b6c-b65b-72842e2f374c.png"></kbd>
+
+And, it's done. You have created your first repo! 😎
+
+*** 
+
+## How to Create Subfolders in your Repository?
+
+**Step 1: Navigate to the right side of the page. Click `Add File` and `Create New File`.**
+
+<kbd><img width="879" alt="Screenshot 2021-09-28 at 10 41 20 PM" src="https://user-images.githubusercontent.com/81607668/135109960-52721c55-810e-47d9-a463-8c19d9ece947.png"></kbd>
+
+**Step 2: Name your file followed by the extension `.md`, or your desired format.**
+
+<kbd><img width="610" alt="Screenshot 2021-09-28 at 10 42 05 PM" src="https://user-images.githubusercontent.com/81607668/135110652-99d4b7da-9339-4324-b564-5d217bf4cfbd.png"></kbd>
+
+***
+
+## How to Upload Projects in your Repository?
+
+**Step 1: Navigate to the right side of the page. Click `Add File` and `Upload File`.**
+
+<kbd><img width="397" alt="image" src="https://user-images.githubusercontent.com/81607668/135250389-cece0d81-19fa-4021-beb1-2bd4fb3bc09c.png"></kbd>
+
+**Step 2: `Choose your file`, wait for file to load completely and click `Commit changes`**
+
+Once your file is uploaded completely, it will look like the one in my screenshot below. Bigger file size would take a longer time to load. 🙂
+
+<kbd><img width="1052" alt="Screenshot 2021-09-29 at 6 19 34 PM" src="https://user-images.githubusercontent.com/81607668/135250662-8d19c9b6-7b57-4e15-90da-efd174d5d8a0.png"></kbd>
+
+And, that's it! It's as simple as that!
+
+***
+
+## How to Fork a Repository?
+
+Let'say I'm checking out this awesome repo and I'm curious to see how he adds the icons, Twitter button, and all the cool stuffs.
+
+<kbd><img width="1419" alt="Screenshot 2021-09-30 at 10 50 08 AM" src="https://user-images.githubusercontent.com/81607668/135378085-28f76e0e-9449-4bd9-8ceb-47a387b7788d.png"></kbd>
+
+**Step 1: Click on the `fork🍴` icon at the top right of the page**
+
+<kbd><img width="439" alt="Screenshot 2021-09-30 at 10 52 45 AM" src="https://user-images.githubusercontent.com/81607668/135378187-26b26415-d194-448b-aba7-9f54dc000b5e.png"></kbd>
+
+**Step 2: It's done!**
+
+GitHub has `forked` and copied the repo and added it as one of your repo. Now, you can edit the file and learn how to add those fancy, cool stuffs too!
+
+<kbd><img width="661" alt="Screenshot 2021-09-30 at 10 50 44 AM" src="https://user-images.githubusercontent.com/81607668/135378329-8d0df892-ed3e-466d-8fe8-3c912065179c.png"></kbd>
+
+Feel free to `fork` this guide and see how I've written it too! 😄🙌🏻
+
+***
+
+Now go and have fun creating your Github profile and start adding projects! 
+
+
 
